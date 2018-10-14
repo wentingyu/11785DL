@@ -19,11 +19,11 @@ from cmudl.hw2p2.submit import *
 
 
 hidden_layer=[32,64,128,256]
-parts=range(1,3)
+parts=range(1,7)
 lr=0.0001
 max_len=14000
-batch_size=5
-nepoch=40
+batch_size=16
+nepoch=25
 training_routine(hidden_layer,parts,lr,max_len,batch_size,nepoch)
 
 
